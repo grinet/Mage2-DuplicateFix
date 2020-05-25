@@ -1,0 +1,32 @@
+{
+    "name": "grinet/duplicatefix",
+    "description": "Fixes 'Item with the same ID “ID” already exists' error. Inspired from http://www.rscoder.com/2019/12/magento-2-how-to-resolve-item-with-same.html",
+    "keywords": ["Magento2", "Magento", "Item with the same ID “ID” already exists"],
+    "require": {
+        "magento/module-directory": "100.*.*",
+        "magento/framework": "100.*.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Grinet\\DuplicateFix\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Grinet",
+            "homepage": "http://www.grinet.com.tr/",
+            "email": "info@grinet.com.tr"
+        }
+    ],
+    "support": {
+        "email": "info@grinet.com.tr"
+    }
+}
